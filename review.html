@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+<title>Movie Review</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+
+<form  action="review.php" method="post">
+ 
+<label for="rating">Rating*</label><br/>
+<Input type = "Radio" Name ="rating" value= "1" >1
+<Input type = "Radio" Name ="rating" value= "2" >2
+<Input type = "Radio" Name ="rating" value= "3" >3
+<Input type = "Radio" Name ="rating" value= "4" >4
+<Input type = "Radio" Name ="rating" value= "5" >5<br/>
+  <label for="comment" >Comment </label><br/>
+  <textarea name = "comm" rows="4" cols="50"></textarea><br/>
+<input type="submit" name="Submit" value="Submit" />
+</form>
+</body>
+</html>
